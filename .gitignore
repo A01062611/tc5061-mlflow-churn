@@ -1,0 +1,26 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# --- Entornos virtuales ---
+.venv/
+venv/
+env/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- MLflow (se regenera corriendo train.py) ---
+mlruns/
+mlartifacts/
+mlflow.db
+
+# --- Salidas del script (figuras, métricas temporales) ---
+outputs/
+
+# --- IDE / SO ---
+.idea/
+.vscode/
+.DS_Store

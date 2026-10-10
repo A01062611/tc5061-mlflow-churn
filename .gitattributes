@@ -1,0 +1,2 @@
+# Datos crudos: no convertir saltos de línea (se guardan idénticos al original)
+*.csv -text
